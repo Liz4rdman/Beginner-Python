@@ -24,9 +24,9 @@ while guess <= 1000000:
     numlist.append(get_random_number())
     guess += 1
 
-x = (Counter(numlist))
+counted = (Counter(numlist))
 
 print('Out of {} guesses, the top 6 numbers were: '.format(guess - 1), '\n')
 
-for number, amount in x.most_common(6):
+for number, amount in counted.most_common(6):
     print('Number {} came out {} times'.format(number, amount))
