@@ -24,7 +24,6 @@ def getRandomNumber():
 
     numlist.append(randomNumber)
     guess += 1
-    numlist.append(randomNumber)
 
 x = (Counter(numlist))
 
