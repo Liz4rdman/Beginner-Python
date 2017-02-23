@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # This program selects 6 numbers for your lotto ticket
-# The program makes 1,000,000 guesses and chooses the top 6 numbers
+# The program makes 1,000,000 random number choices and chooses the top 6.
 
 import random
 import math
